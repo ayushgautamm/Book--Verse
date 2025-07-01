@@ -6,7 +6,6 @@ import retrofit2.http.Headers
 import retrofit2.http.POST
 
 interface CrimeRiskApiService {
-
     @GET("/")
     suspend fun getWelcomeMessage(): Map<String, String>
 
