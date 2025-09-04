@@ -6,7 +6,6 @@ data class PredictionRequest(
     val age: Int,
     val gender: Int
 )
-
      data class PredictionResponse(
     val predicted_risk_level: String,
     val details: PredictionDetails
@@ -19,3 +18,4 @@ data class PredictionRequest(
     val Hour: Int,
     val Month: Int
 )
+
