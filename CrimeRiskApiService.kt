@@ -1,7 +1,4 @@
 package com.example.loginactivityshared.API
-
-
-
 import retrofit2.http.Body
 import retrofit2.http.GET
 import retrofit2.http.Headers
@@ -17,5 +14,6 @@ interface CrimeRiskApiService {
     suspend fun predictRisk(@Body request: PredictionRequest): PredictionResponse
 
 }
+
 
 
