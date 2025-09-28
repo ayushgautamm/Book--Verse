@@ -13,4 +13,5 @@ interface CrimeRiskApiService {
     @POST("/predict/")
     @Headers("Content-Type: application/json")
     suspend fun predictRisk(@Body request: PredictionRequest): PredictionResponse
+
 }
